@@ -1,17 +1,17 @@
-Microservices Used in the Blog Application  &nbsp
+Microservices Used in the Blog Application\
 1️⃣ API Gateway Service
 
 Acts as a single entry point for all requests.
 Routes requests to appropriate microservices.
-Handles authentication and load balancing.  &nbsp
+Handles authentication and load balancing.\
 2️⃣ Authentication Service
 
 Manages user login using Google & Facebook.
-Issues JWT tokens for authentication.  &nbsp
+Issues JWT tokens for authentication.\
 3️⃣ User Service
 
 Stores and manages user data (name, email, profile, etc.).
-Provides user-related APIs.  &nbsp
+Provides user-related APIs.\
 4️⃣ Post Service
 
 Handles blog post creation, updating, deleting, and fetching.
